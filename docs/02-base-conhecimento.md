@@ -106,6 +106,7 @@ Dados do Cliente:
 - Nome: João Silva
 - Perfil: Moderado
 - Objetivos: Contruir reserva de emergência
+- Renda Mensal: R$ 5.000
 - Reserva Atual: R$ 10.000 (Meta: R$ 15.000)
 
 Resumos de Gastos:
