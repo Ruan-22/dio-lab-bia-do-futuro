@@ -112,10 +112,3 @@ REGRAS:
 ```
 
 ---
-
-## Observações e Aprendizados
-
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
