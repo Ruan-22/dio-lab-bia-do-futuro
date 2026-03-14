@@ -21,17 +21,15 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 Podemos injetar os dados diretamente (Ctrl + C, Ctrl + V) ou carregar via código, como abaixo:
 
 ```python
-import pandas as pd
 import json
+import pandas as pd
 
-historico = pd.read_csv('data/historico_atendimento.csv')
-transacoes = pd.read_csv('data/transacoes.csv')
 
-with open('data/perfil_investidor.json', 'r', encoding='utc-8') as f:
-    perfil = json.load(f)
+perfil = json.load(open('./data/perfil_investidor.json'))
+transacoes = pd.read_csv('./data/transacoes.csv')
+historico = pd.read_csv('./data/historico_atendimento.csv')
+produtos = json.load(open('./data/produtos_financeiros.json'))
 
-with open('data/produtos_financeiros.json', 'r', encoding='utc-8') as f:
-    produtos = json.load(f)
 ```
 
 
