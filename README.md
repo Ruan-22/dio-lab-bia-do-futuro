@@ -1,4 +1,4 @@
-# Duca: Educador Financeiro IA
+# 🎓 Duca: Educador Financeiro IA
 
 O Duca é um assistente de Inteligência Artificial desenvolvido para enesinar finanças pessoais. O agente utiliza dados históricos e perfis de usuários para criar exemplos práticos.
 
@@ -36,7 +36,7 @@ Informal e didático
 
 ---
 
-## Arquitetura do  Sistema 
+## ⚙️ Arquitetura do  Sistema 
 ```mermaid
 flowchart TD
     A[Cliente] -->B[streamlit]
@@ -57,7 +57,7 @@ flowchart TD
 
 ---
 
-## Como Executar
+## 🚀 Como Executar
 
 1. Certifique-se de ter o Ollama instalado
 2. Instalar dependências:
